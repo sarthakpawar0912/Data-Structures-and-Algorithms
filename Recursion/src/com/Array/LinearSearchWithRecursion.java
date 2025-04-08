@@ -10,8 +10,7 @@ public class LinearSearchWithRecursion {
 		System.out.println(findIndexLast(arr,45,arr.length-1));
 		
 	}
-	
-	
+
 	static boolean find( int[] arr,int target,int index) {
 		if(index == arr.length) {
 			return false;
