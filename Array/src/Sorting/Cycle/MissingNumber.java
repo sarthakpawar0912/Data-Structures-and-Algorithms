@@ -4,9 +4,7 @@ import java.util.Arrays;
 //amazon question
 //https://leetcode.com/problems/missing-number/description/
 public class MissingNumber {
-	
-	
-	
+
 		public int missingNumber(int arr[]) {
 			int i=0;
 			while(i<arr.length) {
