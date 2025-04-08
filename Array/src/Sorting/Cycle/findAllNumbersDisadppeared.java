@@ -7,6 +7,7 @@ import java.util.List;
 public class findAllNumbersDisadppeared {
 
 	 public List<Integer> findDisappearedNumbers(int[] nums) {
+
 				int i=0;
 				while(i<nums.length) {
 					int correct=nums[i]-1;
@@ -27,6 +28,7 @@ public class findAllNumbersDisadppeared {
 	    }
 	  
 		private static void swap(int[] arr, int i, int correct) {
+
 	        int temp = arr[i];
 	        arr[i] = arr[correct];
 	        arr[correct] = temp;
