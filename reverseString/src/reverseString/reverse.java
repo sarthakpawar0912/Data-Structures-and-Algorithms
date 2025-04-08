@@ -12,6 +12,4 @@ public class reverse {
 	}
 	System.out.println(r);
 	}
-	
-
 }
