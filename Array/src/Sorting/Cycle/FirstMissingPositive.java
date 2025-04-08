@@ -4,6 +4,7 @@ package Sorting.Cycle;
 public class FirstMissingPositive {
 
     public int firstMissingPositive(int arr[]) {
+
         int i = 0;
         while (i < arr.length) {
             int correct = arr[i] - 1; // Calculate the correct position for arr[i]
@@ -22,7 +23,6 @@ public class FirstMissingPositive {
                 return index + 1;
             }
         }
-
         // If all numbers are in place, return the next positive number
         return arr.length + 1;
     }
