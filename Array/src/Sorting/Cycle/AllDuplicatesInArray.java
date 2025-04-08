@@ -6,6 +6,7 @@ import java.util.List;
 // https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 public class AllDuplicatesInArray {
     public List<Integer> findDuplicates(int[] arr) {
+
         int i = 0;
         
         // Perform cyclic sort
@@ -35,4 +36,5 @@ public class AllDuplicatesInArray {
         arr[i] = arr[correct];
         arr[correct] = temp;
     }
+
 }
