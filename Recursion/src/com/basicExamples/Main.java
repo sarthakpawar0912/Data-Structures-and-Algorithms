@@ -6,8 +6,6 @@ public class Main {
 		//writes a function that prints hello world
 		message();
 	}
-	
-	
 	static void message() {
 		System.out.println("Hello");
 	}
