@@ -1,10 +1,13 @@
 package Sorting.Bubble;
 import java.util.Arrays;
 public class BubbleSort {
+
     public static void main(String[] args) {
+
         int[] arr = {54, 4, 83, 2, 891};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
+
     }
     
 
@@ -23,4 +26,5 @@ public class BubbleSort {
             }
         }
     }
+
 }
