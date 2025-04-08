@@ -22,7 +22,6 @@ public class input {
 //		for(int num:arr) {
 //			System.out.println(num+"");
 //		}
-		
 		String[] str=new String[4];
 		for(int i=0;i<str.length;i++) {
 			str[i]=sc.next();
