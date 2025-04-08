@@ -15,4 +15,5 @@ public class Nto1 {
 		System.out.println(n);
 		fun(n-1);	
 		}
+
 }
