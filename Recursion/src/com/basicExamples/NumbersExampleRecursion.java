@@ -17,4 +17,5 @@ public class NumbersExampleRecursion {
 		System.out.println(n);
 		print(n+1);
 	}
+
 }
