@@ -13,17 +13,7 @@ public class sum1 {
 		}
 		
 		return n+sum(n-1);
-		
-		
-		
-		
-		
-		
+
 	}
-	
-	
-	
-	
-	
-	
+
 }
